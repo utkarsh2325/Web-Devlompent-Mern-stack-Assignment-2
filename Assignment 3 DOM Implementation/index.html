@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 - DOM Implementation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <h1 id="greeting-header">Hello</h1>
+
+        <!-- Color Boxes -->
+        <div class="box-wrapper">
+            <div class="color-card" onclick="paintBox(this, 'red')">red</div>
+            <div class="color-card" onclick="paintBox(this, 'blue')">blue</div>
+            <div class="color-card" onclick="paintBox(this, 'green')">green</div>
+            <div class="color-card" onclick="paintBox(this, 'yellow')">yellow</div>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <input type="text" id="user-name" placeholder="Enter your name">
+            <button id="greet-btn" onclick="updateGreeting()">Greet</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
