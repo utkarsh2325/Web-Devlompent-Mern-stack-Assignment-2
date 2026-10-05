@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+.user-badge {
+    background: #eaf4ff;
+    color: #0088ff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background: #fff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-content h1 span {
+    color: #0088ff;
+}
+
+.hero-content p {
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.cta-btn {
+    background: #0088ff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 320px;
+}
+
+/* Achievements Bar */
+.achievements-bar {
+    background: #3b99fc;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.ach-items {
+    display: flex;
+    gap: 40px;
+}
+
+.ach-items div {
+    text-align: center;
+}
+
+/* Booking Section */
+.booking-section {
+    display: flex;
+    gap: 30px;
+    padding: 50px 60px;
+}
+
+.services-container {
+    flex: 1;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.subtext {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.add-btn {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background: #ffe6e6;
+    color: #d9534f;
+    border: 1px solid #f5c6cb;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.cart-form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-box, .form-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+#cart-list {
+    list-style: none;
+    margin: 15px 0;
+}
+
+#cart-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.cart-total {
+    font-weight: bold;
+    margin-top: 15px;
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.form-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background: #5c6bc0;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.status-msg {
+    margin-top: 15px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Quality Section */
+.quality-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    background: #fff;
+}
+
+.quality-card {
+    text-align: center;
+    max-width: 200px;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background: #3b99fc;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.news-form {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.news-form input {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.news-form button {
+    padding: 10px 20px;
+    background: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    background: #f1f1f1;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: #666;
+}
